@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: black;
 }
 
 .d-bloc button:hover {
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black !important;
 }
 
 .container {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -700,7 +700,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 100%;
     margin: auto auto auto auto;
 }
 
@@ -769,17 +769,11 @@ h4 {
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
-
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: rgb(199,80,16);
 }
-
-.tc-white {
-    color: #F3976C!important;
-}
-
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: rgb(199,80,16);
     color: #FFFFFF!important;
 }
 
@@ -791,7 +785,9 @@ h4 {
 .ltc-white {
     color: #FFFFFF!important;
 }
-
+.tc-white{
+    color: white !important;
+}
 .ltc-white:hover {
     color: #cccccc!important;
 }
