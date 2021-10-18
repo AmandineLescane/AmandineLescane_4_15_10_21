@@ -1402,18 +1402,18 @@ select,
 textarea {
     font-family: inherit;
     font-size: inherit;
-    line-height: inherit
+    line-height: inherit;
 }
 
 a {
-    color: #337ab7;
-    text-decoration: none
+    text-decoration: none;
+    color: white;
 }
 
 a:focus,
 a:hover {
     color: #23527c;
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 a:focus {
@@ -2009,12 +2009,6 @@ pre code {
     margin-right: auto;
     margin-left: auto
 }
-
-.row {
-    margin-right: -15px;
-    margin-left: -15px
-}
-
 .col-lg-1,
 .col-lg-10,
 .col-lg-11,
@@ -2066,9 +2060,9 @@ pre code {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
+    color: white;
 }
-
 .col-xs-1,
 .col-xs-10,
 .col-xs-11,
@@ -7682,7 +7676,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #0009;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
